@@ -110,15 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chan_0
+      name: chan_big
       rect:
         serializedVersion: 2
         x: 5
-        y: 21
+        y: 27
         width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -131,106 +131,22 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chan_1
+      name: chan_small
       rect:
         serializedVersion: 2
-        x: 5
+        x: 6
         y: 21
-        width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a6426840316c72478eeaa6062cb1a1d
-      internalID: -1956043827
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chan_2
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 21
-        width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0f883cc591012c344889a7d4e6a830b6
-      internalID: -2084844749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chan_3
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 21
-        width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e2a0977947bdbf742972ca93e6c0398f
-      internalID: 771534694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chan_4
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 21
-        width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5805ab0abe787064aa0accb0c8cf3f7c
-      internalID: 380974308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: chan_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 21
-        width: 5
-        height: 11
-      alignment: 2
-      pivot: {x: 0.5, y: 1}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de0f2dd69e3cbe34dba7c8881dffd99a
-      internalID: -1009746456
+      spriteID: 5c25ef24514bcfb4793d2ad36269e1a6
+      internalID: -1764316591
       vertices: []
       indices: 
       edges: []
@@ -246,12 +162,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chan_0: 805112830
       chan_1: -1956043827
       chan_2: -2084844749
       chan_3: 771534694
       chan_4: 380974308
       chan_5: -1009746456
+      chan_big: 805112830
+      chan_small: -1764316591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
