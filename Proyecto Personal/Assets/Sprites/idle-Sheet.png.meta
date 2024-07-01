@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7807e9ea911684445bdc359092b66efc
+guid: 203b90b6fde19ae4eba960d9b413e9fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 1
     textureFormat: 4
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: chan_big
+      name: idle-Sheet_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 27
-        width: 5
-        height: 5
+        x: 1
+        y: 7
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b31dfdbda156ee4d9bc90320da7248e
-      internalID: 805112830
+      spriteID: 64dd7a397d037f040820fffe16b1877e
+      internalID: -1074231264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: chan_small
+      name: idle-Sheet_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 21
-        width: 3
-        height: 3
+        x: 41
+        y: 7
+        width: 20
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +145,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c25ef24514bcfb4793d2ad36269e1a6
-      internalID: -1764316591
+      spriteID: fbbd2f0615720664f86a0c3b7d7ad2fe
+      internalID: -307825242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 7
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5dc067774790f4d9a24afc8765f968
+      internalID: -358691033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 7
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385d4a0a3a6a5a44d9b3b12ff2c140d1
+      internalID: -378266438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 7
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329bb8f996bb4b438d2c78c9690f6b0
+      internalID: 1172393412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 7
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b1c96c7c82fad644b54be5eb72cbe31
+      internalID: 945623574
       vertices: []
       indices: 
       edges: []
@@ -162,13 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      chan_1: -1956043827
-      chan_2: -2084844749
-      chan_3: 771534694
-      chan_4: 380974308
-      chan_5: -1009746456
-      chan_big: 805112830
-      chan_small: -1764316591
+      idle-Sheet_0: -1074231264
+      idle-Sheet_1: -307825242
+      idle-Sheet_2: -358691033
+      idle-Sheet_3: -378266438
+      idle-Sheet_4: 1172393412
+      idle-Sheet_5: 945623574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
