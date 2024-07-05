@@ -32,7 +32,7 @@ public class moverEslabonScr : MonoBehaviour {
         } else if (Horizontal > 0.0f) {
             transform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
         }
-        an.SetBool("running", Horizontal != 0.0f);
+        
         Debug.DrawRay(transform.position, Vector3.down * RayCastJump, Color.red);
 
         Grounded = (Physics2D.Raycast(transform.position, Vector3.down, RayCastJump) == true) ? true : false;
@@ -60,5 +60,8 @@ public class moverEslabonScr : MonoBehaviour {
     //se usa para fisicas
     private void FixedUpdate(){
         rb.velocity = new Vector2(Horizontal*Speed, rb.velocity.y);
+        an.SetBool("running", Horizontal != 0.0f);
+        an.SetBool("grounded", Grounded);
+        an.SetFloat("velocityY", rb.velocity.y);
     }
 }
