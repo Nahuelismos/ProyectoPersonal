@@ -28,4 +28,34 @@ public class rayoScript : MonoBehaviour
     public void DestroyRayo(){
         Destroy(gameObject); //si es minuscula es porque se trata del mismo obj
     }
+
+    /*private void OnCollisionEnter2D(Collision2D collision){
+        EnemyScript es = collision.collider.GetComponent<EnemyScript>();
+        MovPersonajeSimple mps = collision.collider.GetComponent<MovPersonajeSimple>();
+        if(es != null){
+            es.Hit();
+        }
+        if(mps != null){
+            mps.Hit();
+        }
+        DestroyRayo();
+    }*/
+
+    //isTrigger  o no cambia el usar oncoliision o ontrigger
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        EnemyScript es = collision.GetComponent<EnemyScript>();
+        MovPersonajeSimple mps = collision.GetComponent<MovPersonajeSimple>();
+        if (es != null)
+        {
+            es.Hit();
+        }
+        if (mps != null)
+        {
+            mps.Hit();
+        }
+        DestroyRayo();
+    }
+
 }
